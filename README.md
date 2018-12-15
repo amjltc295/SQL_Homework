@@ -25,7 +25,7 @@ After installation, you should be able to load the database from `starwar.sql` i
 ```
 git clone git@github.com:amjltc295/SQL_Homework.git
 cd SQL_Homework
-mysql -u username -p starwar < starwar.sql
+mysql -u username -p starwar < data/starwar.sql
 ```
 
 Then you could play with the SQL commands with MySQL:
