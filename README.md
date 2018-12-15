@@ -3,17 +3,34 @@ SQL homework for Introduction to Computer (計算機概論), Fall 2018
 
 ## Introduction
 
-In this homework, you will learn some basic SQL commands.
-
 On World Wide Web there are more than 100 different web pages dedicated to Star Wars. However, the answer to a specific trivia question is sometimes difficult to find, precisely because of the abundance of information. In this assignment we will be creating a new Star Wars Trilogy database for the trivial overs. We decided to begin with the time tables - who went where and when. We have started to input the information into the database. Your task will be to create SQL queries that answer some of the often asked questions (or questions that we found most fascinating and asked often). 
+
+
+## Environment Setup
+
+### MySQL
+
+See https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
+
+If you are using Linux, the following commands might work:
+```
+sudo apt-get update
+sudo apt-get install mysql-server
+# Check if mysql is up
+sudo service mysql status
+```
+
+### Others
+
+See the instructions in the previous homework: https://github.com/amjltc295/PythonHomework#task-0-environment-setup
 
 
 ## Database
 
-The database had three tables:
-* characters: contains information about the character’s Name (primary key), Race (if known), Homeworld (if known) and Affiliation (rebels/empire/neutral/free-lancer). 
-* planets: contains information about the planet’s Name (primary key), it’s Type (gas/swamp/forest/handmade/ice/desert), and it’s Affiliation (rebels/empire/neutral). 
-* time_table: contains Character’s Name, Planet’s Name, Movie in which the character visited the planet and the time of arrival and departure from the planet. The primary key is Character’s Name, Planet’s Name and Movie. Movie 1 represents The Star Wars, Movie 2 represents Empire Strikes Back, and Movie 3 represents Return of the Jedi. Each movie has been divided into 10 time chunks and these chunks are used to define time of arrival and departure. So that, if Darth Vader visited Bespin
+The database has three tables:
+* **characters**: contains information about the character’s Name (primary key), Race (if known), Homeworld (if known) and Affiliation (rebels/empire/neutral/free-lancer). 
+* **planets**: contains information about the planet’s Name (primary key), it’s Type (gas/swamp/forest/handmade/ice/desert), and it’s Affiliation (rebels/empire/neutral). 
+* **time_table**: contains Character’s Name, Planet’s Name, Movie in which the character visited the planet and the time of arrival and departure from the planet. The primary key is Character’s Name, Planet’s Name and Movie. Movie 1 represents The Star Wars, Movie 2 represents Empire Strikes Back, and Movie 3 represents Return of the Jedi. Each movie has been divided into 10 time chunks and these chunks are used to define time of arrival and departure. So that, if Darth Vader visited Bespin
 (Cloud City) in Empire Strikes Back from the middle of the movie till it’s end, the record of it will look like this: 
 
 | character_name | planet_name | movie | time_of_arrival | time_of_departure |
@@ -51,7 +68,7 @@ You have to hand in your report on Ceiba before 12/30 12:00 with the required fo
     └── sql_commands.txt
 
 ```
-**Any invalid format (e.g., .rar/.7z ...) of the submission will result in 0 points.**
+**Any invalid format (e.g., .rar/.7z ..., missing report, missing screenshots) of the submission will result in 0 points.**
 
 The report should contain fifteen queries: 
 ```
@@ -65,42 +82,13 @@ StudentID & name
 ```
 Please make it as simple as possible. 
 
-**Any invalid format (e.g., .rar/.7z ..., missing report, missing screenshots) of the submission will result in 0 points.**
+
+**If your screenshot is found the same as another student, both of you will get 0 points.**
 
 You could prevent this by adding some words in the next command:
 ![screenshot](images/screenshot.png)
 
-Discussion is accepted but cheating is strictly prohibited. You must do the whole homework by yourself.
-
-
-
-## Environment Setup
-
-### MySQL
-
-See https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
-
-If you are using Linux, the following commands might work:
-```
-sudo apt-get update
-sudo apt-get install mysql-server
-# Check if mysql is up
-sudo service mysql status
-```
-
-### OS/Conda/GitHub
-
-See the instructions in the previous homework: https://github.com/amjltc295/PythonHomework#task-0-environment-setup
-
-### Others
-
-The following tools would **significantly** improve your coding efficiency if you learn how to use it. Please at least give [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) a try.
-* Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). OMZ is a wonderful command line configuration. It includes auto-completion, alias, beautiful display and many more utilities.
-* Use Vim > 8.0 and install good [vimrc](https://github.com/amix/vimrc)
-* Install [ALE](https://github.com/w0rp/ale) for syntax/style check
-* Install [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) for code auto-completion
-* Install [ack](https://github.com/beyondgrep/ack2) to search local code
-* Use tmux and install [oh-my-tmux](https://github.com/gpakosz/.tmux)
+**Discussion is accepted but cheating is strictly prohibited. You must do the whole homework by yourself.**
 
 
 ## Grading
