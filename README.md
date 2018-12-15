@@ -53,6 +53,8 @@ Query Commands: select, from, where, not, in, exists, distinct, group by, order 
 
 See https://www.tutorialspoint.com/mysql/index.htm for more details.
 
+Note: if you don't like MySQL, you could use other tools as well. However, the syntax should be the same as MySQL and the query results shold be shown. Otherwise you may not get points.
+
 ### Others
 
 See the instructions in the previous homework: https://github.com/amjltc295/PythonHomework#task-0-environment-setup
@@ -87,19 +89,20 @@ You are asked to write SQL queries that answer the questions below (one query pe
 12. For Luke Skywalker, for each movie that Luke appears in, what is the planet that has the different affiliation with him and that he travels to for the longest length of time?
 13. Who visited the planet Star Dagobah and leave later than Luke Skywalker? 
 14. For each race, find the character that travels the most (number of time slots) in each movie 1, 2, 3. 
+15. Which planet(s) has been visited by more than three different characters?
 
 Note that
 * The query answers must not contain duplicates
 * For this assignment, **creation of temporary tables is not allowed**, i.e., for each question, you have to write exactly one SQL statement
 
 ## Submission
-You have to hand in your report on Ceiba before 12/30 12:00 with the required format:
+You have to hand in your report on Ceiba before **12/30 12:00** with the required format:
 
 ```
 └── <your_student_ID>.zip
 	└── <your_student_ID>/
-        ├── report.pdf    			-> your report
-        └── sql_commands.txt		-> a pure text file with 14 lines of your SQL queries
+        ├── report.pdf              -> your report
+        └── sql_commands.txt        -> a pure text file with 14 lines of your SQL queries
 
 ```
 **Any invalid format (e.g., .rar/.7z ..., missing report, missing screenshots, ...) of the submission will result in 0 points.**
@@ -127,8 +130,10 @@ You could prevent this by adding some words in the next command:
 
 ## Grading
 
-* 7 points for each qury (98%)
-* Name and studentID in the report (2%)
+* 6 points for each qury (90%)
+* Name and studentID in the report (10%)
+
+** Remember to provide screenshots for each query in the report.
 
 **If your screenshot is found the same as another student, both of you will get 0 points.**
 
@@ -141,7 +146,7 @@ MIT
 
 ## Disclaimer
 
-The database and questions are based on previous TA's work.
+The database and questions are based on the previous TA's work.
 
 ## Author
 
