@@ -20,6 +20,39 @@ sudo apt-get install mysql-server
 sudo service mysql status
 ```
 
+After installation, you should be able to load the database from `starwar.sql` in this repository:
+```
+mysql -u username -p starwar < starwar.sql
+```
+
+Then you could play with the SQL commands with MySQL:
+```
+$ mysql -u <your user name> -p
+Enter password:
+mysql> use starwar;
+Database changed
+mysql> select name from planets;
++----------------+
+| name           |
++----------------+
+| Tatooine       |
+| Hoth           |
+| Dagobah        |
+| Death Star     |
+| Endor          |
+| Bespin         |
+| Star Destroyer |
+| Kashyyyk       |
+| Corellia       |
+| Alderaan       |
++----------------+
+10 rows in set (0.00 sec)
+
+```
+Query Commands: select, from, where, not, in, exists, distinct, group by, order by, max, [field name] ...
+
+See https://www.tutorialspoint.com/mysql/index.htm for more details.
+
 ### Others
 
 See the instructions in the previous homework: https://github.com/amjltc295/PythonHomework#task-0-environment-setup
@@ -64,11 +97,12 @@ You have to hand in your report on Ceiba before 12/30 12:00 with the required fo
 
 ```
 └── <your_student_ID>.zip
-    ├── report.pdf
-    └── sql_commands.txt
+	└── <your_student_ID>/
+        ├── report.pdf    			-> your report
+        └── sql_commands.txt		-> a pure text file with 14 lines of your SQL queries
 
 ```
-**Any invalid format (e.g., .rar/.7z ..., missing report, missing screenshots) of the submission will result in 0 points.**
+**Any invalid format (e.g., .rar/.7z ..., missing report, missing screenshots, ...) of the submission will result in 0 points.**
 
 The report should contain fifteen queries: 
 ```
