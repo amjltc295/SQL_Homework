@@ -36,7 +36,7 @@ CREATE TABLE `characters` (
 
 LOCK TABLES `characters` WRITE;
 /*!40000 ALTER TABLE `characters` DISABLE KEYS */;
-INSERT INTO `characters` VALUES ('Han Solo','Human','Corellia','rebels\r'),('Princess Leia','Human','Alderaan','rebels\r'),('Luke Skywalker','Human','Tatooine','rebels\r'),('Darth Vader','Human','Unknown','empire\r'),('Chewbacca','Wookie','Kashyyyk','rebels\r'),('C-3 PO','Droid','Unknown','rebels\r'),('R2-D2','Droid','Unknown','rebels\r'),('Obi-Wan Kanobi','Human','Tatooine','rebels\r'),('Lando Calrissian','Human','Unknown','rebels\r'),('Yoda','Unknown','Unknown','neutral\r'),('Jabba the Hutt','Hutt','Unknown','neutral\r'),('Owen Lars','Human','Tatooine','neutral\r'),('Rancor','Rancor','Unknown','neutral\r');
+INSERT INTO `characters` VALUES ('Han Solo','Human','Corellia','rebels'),('Princess Leia','Human','Alderaan','rebels'),('Luke Skywalker','Human','Tatooine','rebels'),('Darth Vader','Human','Unknown','empire'),('Chewbacca','Wookie','Kashyyyk','rebels'),('C-3 PO','Droid','Unknown','rebels'),('R2-D2','Droid','Unknown','rebels'),('Obi-Wan Kanobi','Human','Tatooine','rebels'),('Lando Calrissian','Human','Unknown','rebels'),('Yoda','Unknown','Unknown','neutral'),('Jabba the Hutt','Hutt','Unknown','neutral'),('Owen Lars','Human','Tatooine','neutral'),('Rancor','Rancor','Unknown','neutral');
 /*!40000 ALTER TABLE `characters` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -60,7 +60,7 @@ CREATE TABLE `planets` (
 
 LOCK TABLES `planets` WRITE;
 /*!40000 ALTER TABLE `planets` DISABLE KEYS */;
-INSERT INTO `planets` VALUES ('Tatooine','desert','neutral\r'),('Hoth','ice','rebels\r'),('Dagobah','swamp','neutral\r'),('Death Star','artificial','empire\r'),('Endor','forest','neutral\r'),('Bespin','gas','neutral\r'),('Star Destroyer','artificial','empire\r'),('Kashyyyk','forest','rebels\r'),('Corellia','temperate','rebels\r'),('Alderaan','temperate','rebels\r');
+INSERT INTO `planets` VALUES ('Tatooine','desert','neutral'),('Hoth','ice','rebels'),('Dagobah','swamp','neutral'),('Death Star','artificial','empire'),('Endor','forest','neutral'),('Bespin','gas','neutral'),('Star Destroyer','artificial','empire'),('Kashyyyk','forest','rebels'),('Corellia','temperate','rebels'),('Alderaan','temperate','rebels');
 /*!40000 ALTER TABLE `planets` ENABLE KEYS */;
 UNLOCK TABLES;
 
