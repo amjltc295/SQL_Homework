@@ -95,13 +95,13 @@ You are asked to write SQL queries that answer the questions below (one query pe
 15. Which planet(s) has been visited by more than three different characters?
 
 ## Submission
-You have to hand in your report and queries on Ceiba before **12/30 12:00** with the required format:
+You have to hand in your report and queries on [Ceiba](https://ceiba.ntu.edu.tw/course/fa811a/index.htm) before **1/2 12:00 p.m.** with the required format:
 
 ```
 └── <your_student_ID>.zip
-	└── <your_student_ID>/
+    └── <your_student_ID>/
         ├── report.pdf              -> your report
-        └── sql_commands.txt        -> a pure text file with 14 lines of your SQL queries
+        └── sql_commands.txt        -> a pure text file with 15 lines of your SQL queries
 
 ```
 **Any invalid format (e.g., .rar/.7z ..., missing report, missing screenshots, ...) of the submission will result in 0 points.**
