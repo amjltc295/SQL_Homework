@@ -19,11 +19,15 @@ dependencies:
   - wheel=0.32.3=py37_0
   - xz=5.2.4=h14c3975_4
   - zlib=1.2.11=h7b6447c_3
+  - blas=1.1=openblas
   - bzip2=1.0.6=h470a237_2
   - ca-certificates=2018.11.29=ha4d7672_0
   - certifi=2018.11.29=py37_1000
   - coloredlogs=10.0=py37_1000
   - humanfriendly=4.16.1=py_0
+  - libgfortran=3.0.0=1
+  - numpy=1.15.4=py37_blas_openblashb06ca3d_0
+  - openblas=0.3.3=ha44fe06_1
   - openssl=1.0.2p=h470a237_1
   - python=3.7.1=h5001a0f_0
   - libgcc-ng=8.2.0=hdf63c60_1
