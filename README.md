@@ -100,8 +100,8 @@ You have to hand in your report and queries on [Ceiba](https://ceiba.ntu.edu.tw/
 ```
 └── <your_student_ID>.zip
     └── <your_student_ID>/
-        ├── report.pdf              -> your report
-        └── sql_commands.txt        -> a pure text file with 15 lines of your SQL queries
+        ├── report.pdf                   -> your report
+        └── <your_student_ID>.txt        -> a pure text file with 15 lines of your SQL queries
 
 ```
 **Any invalid format (e.g., .rar/.7z ..., missing report, missing screenshots, ...) of the submission will result in 0 points.**
@@ -129,6 +129,7 @@ You could prevent this by adding some words in the next command:
 
 ## Grading
 
+* Use `python src/self_checker.py -u <your mysql username> -p <your mysql password> -f <your_student_ID>.txt -a data/answer_shapes.json` to check your answer shape.
 * 6 points for each qury (90%)
 * Name and studentID in the report (10%)
 
