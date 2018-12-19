@@ -90,7 +90,7 @@ You are asked to write SQL queries that answer the questions below (one query pe
 10. Which planet has the longest staying time to the droid? 
 11. Which planet(s) have not been visited by any characters in all movies (1, 2 and 3)? 
 12. For Luke Skywalker, for each movie that Luke appears in, what is the planet that has the different affiliation with him and that he travels to for the longest length of time?
-13. Who visited the planet Star Dagobah and leave later than Luke Skywalker? 
+13. Who visited the planet Dagobah and leave later than Luke Skywalker? 
 14. For each race, find the character that travels the most (number of time slots) in each movie 1, 2, 3. 
 15. Which planet(s) has been visited by more than three different characters?
 
