@@ -130,7 +130,7 @@ You could prevent this by adding some words in the next command:
 ## Grading
 
 * Use `python src/self_checker.py -u <your mysql username> -p <your mysql password> -f <your_student_ID>.txt -a data/answer_shapes.json` to check your answer shape.
-* 6 points for each qury (90%)
+* 6 points for each query (90%)
 * Name and studentID in the report (10%)
 
 ## Note
