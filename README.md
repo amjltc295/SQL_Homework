@@ -71,9 +71,11 @@ The database has three tables:
 * **time_table**: contains Character’s Name, Planet’s Name, Movie in which the character visited the planet and the time of arrival and departure from the planet. The primary key is Character’s Name, Planet’s Name and Movie. Movie 1 represents The Star Wars, Movie 2 represents Empire Strikes Back, and Movie 3 represents Return of the Jedi. Each movie has been divided into 10 time chunks and these chunks are used to define time of arrival and departure. So that, if Darth Vader visited Bespin
 (Cloud City) in Empire Strikes Back from the middle of the movie till it’s end, the record of it will look like this: 
 
-| character_name | planet_name | movie | time_of_arrival | time_of_departure |
-|----------------|-------------|-------|-----------------|-------------------|
-| Darth Vader    | Bespin      | 2     | 5               | 10                |
+    | character_name | planet_name | movie | time_of_arrival | time_of_departure |
+    |----------------|-------------|-------|-----------------|-------------------|
+    | Darth Vader    | Bespin      | 2     | 5               | 10                |
+
+    Note that the time that a character stays in the planet is (time_of_departure - time_of_arrival).
 
 
 ## Questions
