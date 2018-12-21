@@ -80,7 +80,7 @@ The database has three tables:
 
 ## Questions
 You are asked to write SQL queries that answer the questions below (one query per question) and run them with MySQL.
-Some hints for columns to be selected are shown in the parentheses.
+Some hints for columns to be selected are shown in the parentheses **()**.
 1. Who had been to Endor in movie 3? 
 2. How many planets did Luke Skywalker visit in movie 2? 
 3. Who visited his/her homeworld in movie 3? 
@@ -88,13 +88,13 @@ Some hints for columns to be selected are shown in the parentheses.
 5. Find distinct names of the planets visited by rebels affiliated human. 
 6. Show the characters names and the total time they spent in each planet among the movies. 
 7. Find all characters that is rebels affiliates humans and his/her homeworld is known. 
-8. On which planets and in which movies has Luke Skywalker been at the same time on the planet as anyone who is human?  (planet_name, movie)
-9. For each movie, which character(s) visited the highest number of planets? (movie, character_name, number_of_planet_visited)
+8. On which planets and in which movies has Luke Skywalker been at the same time on the planet as anyone who is human?  (**planet_name, movie**)
+9. For each movie, which character(s) visited the highest number of planets? (**movie, character_name, number_of_planet_visited**)
 10. Which planet has the longest staying time to the droid? 
-11. Which planet(s) have not been visited by any characters in all movies (1, 2 and 3)? 
-12. For Luke Skywalker, for each movie that Luke appears in, what is the planet that has the different affiliation with him and that he travels to for the longest length of time? (movie, planet)
+11. Which planet(s) have not been visited by any characters in all movies? 
+12. For Luke Skywalker, for each movie that Luke appears in, what is the planet that has the different affiliation with him and that he travels to for the longest length of time? (**movie, planet**)
 13. Who visited the planet Dagobah and leave later than Luke Skywalker? 
-14. For each race, find the character that travels the most (number of time slots) in each movie. (movie, race, character_name)
+14. For each race, find the character that travels the most (number of time slots) in each movie. (**movie, race, character_name**)
 15. Which planet(s) has been visited by more than three different characters?
 
 ## Submission
