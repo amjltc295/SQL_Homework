@@ -20,8 +20,18 @@ sudo apt-get install mysql-server
 sudo service mysql status
 ```
 
-You may need to setup an account or use root for MySQL.
+You may need to [create an account](https://dev.mysql.com/doc/refman/5.5/en/adding-users.html) or use root for MySQL (`sudo mysql`).
 After installation, you should be able to load the database from `starwar.sql` in this repository:
+
+In MySQL:
+```
+# You need to create a database named 'starwar' in MySQL before loading the starwar.sql
+$ mysql -u <your user name> -p  # Or 'sudo mysql' if you did not setup an account
+Enter password:
+mysql> CREATE DATABASE starwar;
+```
+
+In the terminal
 ```
 git clone git@github.com:amjltc295/SQL_Homework.git
 cd SQL_Homework
@@ -30,7 +40,7 @@ mysql -u username -p starwar < data/starwar.sql
 
 Then you could play with the SQL commands with MySQL:
 ```
-$ mysql -u <your user name> -p
+$ mysql -u <your user name> -p  # Or 'sudo mysql' if you did not setup an account
 Enter password:
 mysql> use starwar;
 Database changed
