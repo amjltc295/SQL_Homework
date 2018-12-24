@@ -95,9 +95,9 @@ Some hints for columns to be selected are shown in the parentheses **()**.
 2. How many planets did Luke Skywalker visit in movie 2? 
 3. Who visited his/her homeworld in movie 3? 
 4. Find all characters that never visited any empire planets. 
-5. Find distinct names of the planets visited by rebels affiliated human. 
+5. Find distinct names of the planets visited by rebels-affiliated human. 
 6. Show the characters names and the total time they spent in each planet among the movies. 
-7. Find all characters that is rebels affiliates humans and his/her homeworld is known. 
+7. Find all characters that are rebels-affiliated humans and his/her homeworld is known. 
 8. On which planets and in which movies has Luke Skywalker been at the same time on the planet as anyone who is human?  (**planet_name, movie**)
 9. For each movie, which character(s) visited the highest number of planets? (**movie, character_name, number_of_planet_visited**)
 10. Which planet has the longest staying time to the droid? 
