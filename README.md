@@ -66,7 +66,7 @@ Query Commands: select, from, where, not, in, exists, distinct, group by, order 
 
 See https://www.tutorialspoint.com/mysql/index.htm for more details.
 
-Note: if you don't like MySQL, you could use other tools as well. However, the syntax should be the same as MySQL and the query results shold be shown. Otherwise you may not get points.
+Note: if you don't like MySQL, you could use other tools as well. However, the syntax should be the same as MySQL and the query results should be shown. Otherwise you may not get points.
 
 ### Others
 
