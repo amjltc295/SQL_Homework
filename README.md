@@ -18,6 +18,7 @@ sudo apt-get update
 sudo apt-get install mysql-server
 # Check if mysql is up
 sudo service mysql status
+# See https://tableplus.io/blog/2018/10/how-to-start-stop-restart-mysql-server.html to start the MySQL server if the server is not started
 ```
 
 You may need to [create an account](https://dev.mysql.com/doc/refman/5.5/en/adding-users.html) or use root for MySQL (`sudo mysql`).
