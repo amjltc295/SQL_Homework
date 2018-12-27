@@ -8,7 +8,7 @@ On World Wide Web there are more than 100 different web pages dedicated to Star 
 
 ## Environment Setup
 
-### MySQL
+### MySQL 5.7
 
 See https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
 
